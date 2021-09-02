@@ -17,13 +17,13 @@
 <script lang='ts'>
 export default {
   setup() {
-    const pageList = [1, 2, 3, 4, 5, 6, 7, 8]; // 页码列表
+    const pageList = [1, 2, 3, 4, 5, 6, 7, 8,9]; // 页码列表
     const page = 1; // 当前页码
     const pageMax = 7; // 最大页数
     return {
       pageList,
       page,
-      pageMax,
+      pageMax, 
     };
   },
 };
